@@ -1,1 +1,3 @@
 git@github.com:vladimirplesco/astro_tutorial.git
+https://guileless-zuccutto-435526.netlify.app/
+https://myastrotutorial.netlify.app/
