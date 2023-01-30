@@ -1,3 +1,5 @@
 git@github.com:vladimirplesco/astro_tutorial.git
 https://guileless-zuccutto-435526.netlify.app/
 https://myastrotutorial.netlify.app/
+
+{skills.map(function(skill) {return <li>{skill}</li>})}
