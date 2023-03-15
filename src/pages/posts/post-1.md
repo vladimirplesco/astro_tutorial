@@ -10,7 +10,6 @@ tags: ["astro", "blogging", "learning in public"]
 
 ---
 # My First Blog Post
-![Astro](https://astro.build/assets/logo.png)
 
 <img src="https://astro.build/assets/logo.png" width="25" alt="Astro">
 
