@@ -5,3 +5,19 @@ https://myastrotutorial.netlify.app/
 https://app.netlify.com/teams/vladimirplesco/overview
 
 {skills.map(function(skill) {return <li>{skill}</li>})}
+
+---
+layout: ../../layouts/MyMarkdownLayout.astro
+title: "Learning About Markdown in Astro"
+author: Astro Learner
+pubDate: 2022-08-08
+---
+
+---
+import Footer from '../components/Footer.astro'
+const { frontmatter } = Astro.props
+---
+<h1>{frontmatter.title}</h1>
+<p>Written by:{frontmatter.author } on {frontmatter.pubDate}</p>
+< slot  />
+<Footer />
